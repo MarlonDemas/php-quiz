@@ -9,7 +9,8 @@
      <link rel="stylesheet" href="css/main.css">
  </head>
  <body>
-     <div class="container">
-     </div>
+     <section class="hero is-fullheight">
+         <div class="container"></div>
+     </section>
  </body>
  </html>
