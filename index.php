@@ -6,6 +6,28 @@
      <title>Ultimate Soccer Quiz</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+     <style>
+        input[type=radio] {
+            display: none;
+        }
+        label {
+            display: inline-block;
+            text-align: center;
+            background: #fbfbfb;
+            width: 150px;
+            padding: 5px 0;
+            cursor: pointer;
+            border: 1px solid #dadada;
+            border-bottom: none;
+            vertical-align: center;
+        }
+        label:hover {
+            background: rgba(0,0,0,0);
+        }
+        input:checked+label {
+            background: green;
+        }
+     </style>
  </head>
  <body>
     <?php
@@ -61,14 +83,14 @@
                     foreach ($value['answers'] as $letter => $answer){
                     $label = 'question-'.$questionNo.'-answers-'.$letter;
                         ?>
-                <div>
+                <div class="control">
                     <input type="radio" name="answers[<?php echo $questionNo; ?>]" id="<?php echo $label; ?>" value="<?php echo $letter; ?>" />
-                    <label for="<?php echo $label; ?>"><?php echo $letter; ?>) <?php echo $answer; ?> </label>
+                    <label for="<?php echo $label; ?>"><?php echo $answer; ?> </label>
                 </div>
                 <?php } ?>
 
             <?php } ?>
-            <input type="submit" value="Submit Quiz" />
+            <button type="submit" class="button is-success">Submit Quiz!</button>
         </form>
  </body>
  </html>
