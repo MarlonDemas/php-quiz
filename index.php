@@ -217,7 +217,7 @@
             );
         ?>
         
-        <form action="index.php" method="post" id="quiz">
+        <form action="results.php" method="post" id="quiz">
             <?php foreach ($questions as $questionNo => $value){ ?>
                 <div class="box">
                     <h3 class="title is-4"><?php echo $value['question']; ?></h3>
@@ -237,7 +237,8 @@
 
             <button type="submit" class="button is-success">Submit Quiz!</button>
         </form>
-    </div>
+    </div> 
+    
 </section>
  </body>
  </html>
