@@ -234,7 +234,7 @@
                     </div>
                 </div>
             <?php } ?>
-
+            
             <button type="submit" class="button is-success">Submit Quiz!</button>
         </form>
     </div> 
