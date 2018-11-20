@@ -1,6 +1,48 @@
 section {
-    /* height: 100vh; */
-    background: url('../images/champions_league.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url("../images/champions_league.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+section h1 {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+}
+section input[type=radio] {
+  display: none;
+}
+section label {
+  display: inline-block;
+  text-align: center;
+  background: #f3f3f3;
+  width: 150px;
+  padding: 5px 0;
+  cursor: pointer;
+  border: 1px solid #dadada;
+  border-bottom: none;
+  vertical-align: center;
+}
+section label:hover {
+  background: rgba(0, 0, 0, 0);
+}
+section input:checked + label {
+  background: green;
+}
+section .box {
+  width: 50%;
+  margin: 0px auto;
+}
+section .box h3 {
+  text-align: center;
+}
+section .box .btnContainer {
+  width: 150px;
+  border-bottom: 1px solid #dadada;
+  margin: 20px auto;
+}
+section button {
+  float: right;
+}
+
+/*# sourceMappingURL=main.css.map */

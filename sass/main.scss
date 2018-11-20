@@ -1,0 +1,46 @@
+section {
+    background: url('../images/champions_league.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1 {
+        text-align: center;
+        background: #fff;
+        padding: 30px;
+    }
+    input[type=radio] {
+        display: none;
+    }
+    label {
+        display: inline-block;
+        text-align: center;
+        background: #f3f3f3;
+        width: 150px;
+        padding: 5px 0;
+        cursor: pointer;
+        border: 1px solid #dadada;
+        border-bottom: none;
+        vertical-align: center;
+        &:hover {
+            background: rgba(0, 0, 0, 0);
+        }
+    }
+    input:checked+label {
+        background: green;
+    }
+    .box {
+        width: 50%;
+        margin: 0px auto;
+        h3 {
+            text-align: center;
+        }
+        .btnContainer {
+            width: 150px;
+            border-bottom: 1px solid #dadada;
+            margin: 20px auto;
+        }
+    }
+    button {
+        float: right;
+    }
+}
