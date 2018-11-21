@@ -236,7 +236,7 @@
      ?>
 
      <script>
-       alert('<?php echo $results; ?>');
+        alert('<?php echo $results; ?>');
      </script>
  </body>
  </html>

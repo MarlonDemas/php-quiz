@@ -227,7 +227,7 @@
                             $label = 'question-'.$questionNo.'-answers-'.$letter;
                                 ?>
                         <div class="control">
-                            <input type="radio" name="answers[<?php echo $questionNo; ?>]" id="<?php echo $label; ?>" value="<?php echo $letter; ?>" />
+                            <input type="radio" name="answers[<?php echo $questionNo; ?>]" id="<?php echo $label; ?>" value="<?php echo $letter; ?>" required />
                             <label for="<?php echo $label; ?>"><?php echo $answer; ?> </label>
                         </div>
                         <?php } ?>
