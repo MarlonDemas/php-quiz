@@ -26,7 +26,8 @@ section {
         }
     }
     input:checked+label {
-        background: green;
+        background: #3562a6;
+        color: white;
     }
     .box {
         width: 50%;
@@ -41,8 +42,6 @@ section {
         }
     }
     button {
-        float: right;
         margin-bottom: 30px;
-        margin-right: 25%;
     }
 }

@@ -1,3 +1,5 @@
+ <?php session_start(); ?>
+
  <!DOCTYPE html>
  <html>
  <head>
@@ -235,10 +237,11 @@
                 </div>
             <?php } ?>
             
-            <button type="submit" class="button is-success">Submit Quiz!</button>
+            <center><button type="submit" class="button is-info">Submit Quiz!</button></center>
         </form>
     </div> 
     
+    <?php $_SESSION['questions'] = $questions; ?>
 </section>
  </body>
  </html>
