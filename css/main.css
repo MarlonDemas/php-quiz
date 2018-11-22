@@ -46,4 +46,9 @@ section button {
   margin-bottom: 30px;
 }
 
+article {
+  width: 50%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

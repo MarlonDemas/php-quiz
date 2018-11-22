@@ -7,6 +7,8 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <title>Results</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
  </head>
  <body>
      <?php
@@ -33,10 +35,47 @@
         }
 
         echo($results);
+        
      ?>
 
-     <script>
-        alert('<?php echo $results; ?>');
-     </script>
+     <?php if ($counter < 10) { ?>
+        <div class="container">
+            <article class="message is-danger">
+                <div class="message-header">
+                    Congrats
+                </div>
+                <div class="message-body">
+                    You done it
+                </div>
+            </article>
+        </div>
+     <?php } ?>
+
+     <?php if ($counter > 10) { ?>
+        <div class="container">
+            <article class="message is-warning">
+                <div class="message-header">
+                    Congrats
+                </div>
+                <div class="message-body">
+                    You done it
+                </div>
+            </article>
+        </div>
+     <?php } ?>
+
+     <?php if ($counter >` 15) { ?>
+        <div class="container">
+            <article class="message is-success">
+                <div class="message-header">
+                    Congrats
+                </div>
+                <div class="message-body">
+                    You done it
+                </div>
+            </article>
+        </div>
+     <?php } ?>
+
  </body>
  </html>
