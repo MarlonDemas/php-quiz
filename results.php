@@ -11,6 +11,12 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
  </head>
  <body>
+
+     <div class="box is-invisible">
+         <audio controls autoplay>
+             <source src="UEFA Champions League 2016 2017 Theme Song AudioLyrics]-[AudioTrimmer.com].mp3">
+         </audio>
+     </div>
      <?php
         $questions = $_SESSION['questions'];
         $answers = $_POST['answers'];
@@ -25,53 +31,53 @@
                 $counter++;
             }
 
-            if ($counter=="") { 
-                $counter='0';
-                $results = "Your score: $counter/20";
-            } else { 
-                $results = "Your score: $counter/20";
-            }
-
         }
-
-        echo($results);
         
      ?>
 
-     <?php if ($counter < 10) { ?>
+     <?php if ($counter < 10) { 
+         $percent = ($counter/20)*100;
+     ?>
         <div class="container">
             <article class="message is-danger">
                 <div class="message-header">
                     Congrats
                 </div>
                 <div class="message-body">
-                    You done it
+                    You got <?php echo $counter ?> out of 20 which is a solid 
+                    <p class="title is-4"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
      <?php } ?>
 
-     <?php if ($counter > 10) { ?>
+     <?php if ($counter > 10 && $counter < 15) { 
+         $percent = ($counter/20)*100;
+     ?>
         <div class="container">
             <article class="message is-warning">
                 <div class="message-header">
                     Congrats
                 </div>
                 <div class="message-body">
-                    You done it
+                    You got <?php echo $counter ?> out of 20 which is a solid 
+                    <p class="title is-4"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
      <?php } ?>
 
-     <?php if ($counter > 15) { ?>
+     <?php if ($counter > 15) { 
+         $percent = ($counter/20)*100; 
+     ?>
         <div class="container">
             <article class="message is-success">
                 <div class="message-header">
                     Congrats
                 </div>
                 <div class="message-body">
-                    You done it
+                    You got <?php echo $counter ?> out of 20 which is a solid 
+                    <p class="title is-4"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
