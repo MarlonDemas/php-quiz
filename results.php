@@ -64,7 +64,7 @@
         </div>
      <?php } ?>
 
-     <?php if ($counter >` 15) { ?>
+     <?php if ($counter > 15) { ?>
         <div class="container">
             <article class="message is-success">
                 <div class="message-header">
