@@ -44,8 +44,8 @@
                     Congrats
                 </div>
                 <div class="message-body">
-                    You got <?php echo $counter ?> out of 20 which is a solid 
-                    <p class="title is-4"><?php echo $percent ?>%</p>
+                    <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
+                    <p class="title is-3"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
@@ -60,8 +60,8 @@
                     Congrats
                 </div>
                 <div class="message-body">
-                    You got <?php echo $counter ?> out of 20 which is a solid 
-                    <p class="title is-4"><?php echo $percent ?>%</p>
+                    <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
+                    <p class="title is-3"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
@@ -76,8 +76,8 @@
                     Congrats
                 </div>
                 <div class="message-body">
-                    You got <?php echo $counter ?> out of 20 which is a solid 
-                    <p class="title is-4"><?php echo $percent ?>%</p>
+                    <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
+                    <p class="title is-3"><?php echo $percent ?>%</p>
                 </div>
             </article>
         </div>
