@@ -32,7 +32,7 @@
     
     ?>
 
-    <!-- Checks  -->
+    <!-- Checks your score and outputs it with a message based on the score you got -->
     <?php if ($counter == 0) { 
         $percent = ($counter/20)*100;
     ?>
@@ -158,6 +158,7 @@
     }
 ?>
 
+<!-- Button to retake quiz -->
 <center>
     <a href="index.php" class="button is-light">Retake Quiz</a>
 </center>
