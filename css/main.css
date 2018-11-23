@@ -1,8 +1,14 @@
+/* Section styling starts here */
 section {
   background: url("../images/champions_league.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* Styling the page heading */
+  /* Removing the radio input */
+  /* Styling the label of the radio input */
+  /* Styling the box for each question */
+  /* Styling the submit button */
 }
 section h1 {
   text-align: center;

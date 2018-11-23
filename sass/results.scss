@@ -1,20 +1,28 @@
+/* Body styling starts here */
+
 body {
     height: 100vh;
     background: url('../images/champions_league.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* Moving image to be viewed down */
     .image {
         margin-top: 5vh;
     }
+    /* Styling the box */
     article {
         width: 50%;
         margin: auto;
     }
+    /* Styling the retake button */
     a {
         margin-top: 5vh;
     }
 }
+
+
+/* Styling the fireworks animation */
 
 $particles: 50;
 $width: 500;

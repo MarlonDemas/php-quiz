@@ -1,16 +1,21 @@
+/* Section styling starts here */
+
 section {
     background: url('../images/champions_league.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* Styling the page heading */
     h1 {
         text-align: center;
         background: #fff;
         padding: 30px;
     }
+    /* Removing the radio input */
     input[type=radio] {
         display: none;
     }
+    /* Styling the label of the radio input */
     label {
         display: inline-block;
         text-align: center;
@@ -29,6 +34,7 @@ section {
         background: #3562a6;
         color: white;
     }
+    /* Styling the box for each question */
     .box {
         width: 50%;
         margin: 0px auto;
@@ -43,6 +49,7 @@ section {
             margin: 20px auto;
         }
     }
+    /* Styling the submit button */
     button {
         margin-bottom: 30px;
     }
