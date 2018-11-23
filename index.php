@@ -9,6 +9,13 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="css/main.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+     <style>
+        @media screen and (max-width: 800px) {
+            section .box h3 {
+                font-size: 1rem;
+            }
+        }
+     </style>
  </head>
  <body>
  <section class="hero is-fullheight">
@@ -222,7 +229,7 @@
         <form action="results.php" method="post" id="quiz">
             <?php foreach ($questions as $questionNo => $value){ ?>
                 <div class="box">
-                    <h3 class="title is-4"><?php echo $value['question']; ?></h3>
+                    <h3><?php echo $value['question']; ?></h3>
                     <div class="btnContainer">
                         <?php 
                             foreach ($value['answers'] as $letter => $answer){

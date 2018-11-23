@@ -7,7 +7,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <title>Results</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/results.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
  </head>
  <body>
@@ -70,6 +70,14 @@
      <?php if ($counter > 15) { 
          $percent = ($counter/20)*100; 
      ?>
+     <?php if ($counter == 20) { ?>
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+    <?php    
+        }
+    ?>
         <div class="container">
             <article class="message is-success">
                 <div class="message-header">
@@ -81,7 +89,9 @@
                 </div>
             </article>
         </div>
-     <?php } ?>
+    <?php 
+        } 
+     ?>
 
  </body>
  </html>

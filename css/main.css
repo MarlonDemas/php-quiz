@@ -36,6 +36,8 @@ section .box {
 }
 section .box h3 {
   text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 section .box .btnContainer {
   width: 150px;
@@ -44,11 +46,6 @@ section .box .btnContainer {
 }
 section button {
   margin-bottom: 30px;
-}
-
-article {
-  width: 50%;
-  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
