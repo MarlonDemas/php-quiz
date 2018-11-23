@@ -4,9 +4,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    .image {
+        margin-top: 5vh;
+    }
     article {
         width: 50%;
         margin: auto;
+    }
+    a {
+        margin-top: 5vh;
     }
 }
 
