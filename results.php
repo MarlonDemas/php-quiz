@@ -47,7 +47,7 @@
         </audio>
         <article class="message is-danger">
             <div class="message-header">
-                Congratulations! You are totally clueless!!!
+                Congratulations! You are totally clueless!!!😞
             </div>
             <div class="message-body">
                 <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
@@ -83,7 +83,7 @@
     </div>
     <?php } ?>
 
-    <?php if ($counter > 10 && $counter < 15) { 
+    <?php if ($counter >= 10 && $counter < 15) { 
         $percent = ($counter/20)*100;
     ?>
     <div class="container">
@@ -97,7 +97,7 @@
         </audio>
         <article class="message is-warning">
             <div class="message-header">
-                Congrats
+                Congratulations!!! You Are A Casual Soccer Fan😀
             </div>
             <div class="message-body">
                 <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
@@ -107,7 +107,7 @@
     </div>
     <?php } ?>
 
-    <?php if ($counter > 15 && $counter< 20) { 
+    <?php if ($counter >= 15 && $counter < 20) { 
         $percent = ($counter/20)*100; 
     ?>
     <div class="container">
@@ -121,7 +121,7 @@
         </audio>
         <article class="message is-success">
             <div class="message-header">
-                Congrats
+                Congratulations!!! You Are A True Soccer Fan😁
             </div>
             <div class="message-body">
                 <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
@@ -149,11 +149,12 @@
     </audio>
     <article class="message is-success">
         <div class="message-header">
-            Congrats
+            Congratulation!!! You Are A Soccer Mastermind!🤩
         </div>
         <div class="message-body">
             <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
             <p class="title is-3"><?php echo $percent ?>%</p>
+            <p class="title is-4">Wow, impressive! You're not a soccer fan; you're a soccer GENIUS. Amazing!</p>
         </div>
     </article>
 <?php    
