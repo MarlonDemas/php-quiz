@@ -47,11 +47,12 @@
         </audio>
         <article class="message is-danger">
             <div class="message-header">
-                Congrats
+                Congratulations! You are totally clueless!!!
             </div>
             <div class="message-body">
                 <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
                 <p class="title is-3"><?php echo $percent ?>%</p>
+                <p class="title is-4">OK, be honest--you've never actually seen a game before, have you?</p>
             </div>
         </article>
     </div>
@@ -71,11 +72,12 @@
         </audio>
         <article class="message is-danger">
             <div class="message-header">
-                Congrats
+                Ouch!!! You Are Not Very Knowledgeable🤷‍
             </div>
             <div class="message-body">
                 <p class="title is-4">You got <?php echo $counter ?> out of 20 which is a solid </p>
                 <p class="title is-3"><?php echo $percent ?>%</p>
+                <p class="title is-4">You know a bit about soccer, but let's be honest--it's really not your thing.</p>
             </div>
         </article>
     </div>

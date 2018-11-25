@@ -65,10 +65,10 @@
                         'answers' => array(
                             'A' => 'A referee and four linesmen',
                             'B' => 'Two referees',
-                            'C' => 'Two referees and two linesmen',
+                            'C' => 'One referee, a fourth official and two linesmen',
                             'D' => 'A referee and two linesmen'
                         ),
-                        'correctAnswer' => 'D'
+                        'correctAnswer' => 'C'
                     ),
                     5 => array(
                         'question' => "5. This is awarded to the opposite team when a defensive player fouls an attacking player or commits a handball in his or her team's penalty area.",
