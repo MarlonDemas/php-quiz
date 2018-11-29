@@ -1,6 +1,12 @@
 # Ultimate Soccer Quiz
 
-The "Ultimate Soccer Quiz" is a php based quiz that tests your soccer knowledge. Most of the questions are basic just to see if you know anything about the biggest and greatest sport in the world. Made the quiz to challenge and test my knowledge of php loops and control statements.
+## Introduction
+
+The "Ultimate Soccer Quiz" is a php based quiz that tests your soccer knowledge. Most of the questions are basic just to see if you know anything about the biggest and greatest sport in the world. 
+
+## Purpose
+
+Made the quiz to challenge and test my knowledge of php loops and control statements.
 
 ## Setting up my workspace
 
